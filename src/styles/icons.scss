@@ -1,0 +1,241 @@
+@font-face {
+  font-family: 'pro-font';
+  src: url('https://d1xvn5mjulg4qv.cloudfront.net/3.0.0/icons/fonts/pro-font.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.icon-sort:before {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'boilerplatebuilder' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: '\e900';
+}
+
+i.pro {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'pro-font' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-question-mark .path1:before {
+  content: '\e900';
+  color: rgb(255, 255, 255);
+}
+
+.icon-question-mark .path2:before {
+  content: '\e901';
+  margin-left: -1em;
+  color: rgb(226, 226, 226);
+}
+
+.icon-question-mark .path3:before {
+  content: '\e902';
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.icon-close:before {
+  content: '\e904';
+  color: #376d72;
+}
+
+.icon-close.disabled:before {
+  color: #828282;
+}
+
+.icon-edit-thin:before {
+  content: '\e905';
+  color: #376d72;
+}
+
+.icon-edit:before {
+  content: '\e906';
+  color: #376d72;
+}
+
+.icon-edit.disabled:before {
+  color: #828282;
+}
+
+.icon-accordion-expanded:before {
+  content: '\e907';
+  color: #104747;
+}
+
+.icon-accordion-collapsed:before {
+  content: '\e908';
+  color: #104747;
+}
+
+.icon-folder .path1:before {
+  content: '\e909';
+  color: rgb(201, 169, 31);
+}
+
+.icon-folder .path2:before {
+  content: '\e90a';
+  margin-left: -1em;
+  color: rgb(234, 215, 134);
+}
+
+.icon-library-collapsed:before {
+  content: '\e90b';
+  color: #c9a91f;
+}
+
+.icon-library-expanded:before {
+  content: '\e90c';
+  color: #c9a91f;
+}
+
+.icon-radio-button-checked .path1:before {
+  content: '\e90d';
+  color: rgb(255, 255, 255);
+}
+
+.icon-radio-button-checked .path2:before {
+  content: '\e90e';
+  margin-left: -1em;
+  color: rgb(226, 226, 226);
+}
+
+.icon-radio-button-checked .path3:before {
+  content: '\e90f';
+  margin-left: -1em;
+  color: rgb(55, 109, 114);
+}
+
+.icon-radio-button .path1:before {
+  content: '\e910';
+  color: rgb(255, 255, 255);
+}
+
+.icon-radio-button .path2:before {
+  content: '\e911';
+  margin-left: -1em;
+  color: rgb(226, 226, 226);
+}
+
+.icon-hamburger:before {
+  content: '\e912';
+  color: #376d72;
+}
+
+.icon-play .path1:before {
+  content: '\e913';
+  color: rgb(255, 255, 255);
+}
+
+.icon-play .path2:before {
+  content: '\e914';
+  margin-left: -1em;
+  color: rgb(72, 73, 73);
+}
+
+.icon-plus:before {
+  content: '\e915';
+  color: #376d72;
+}
+
+.icon-search:before {
+  content: '\e916';
+  color: #7a7a7a;
+}
+
+.icon-checkbox .path1:before {
+  content: '\e917';
+  color: rgb(255, 255, 255);
+}
+
+.icon-checkbox .path2:before {
+  content: '\e918';
+  margin-left: -1em;
+  color: rgb(168, 168, 168);
+}
+
+.icon-document .path1:before {
+  content: '\e919';
+  color: rgb(55, 109, 114);
+}
+
+.icon-document .path2:before {
+  content: '\e91a';
+  margin-left: -1em;
+  color: rgb(191, 221, 220);
+}
+
+.icon-document .path3:before {
+  content: '\e91b';
+  margin-left: -1em;
+  color: rgb(191, 221, 220);
+}
+
+.icon-document .path4:before {
+  content: '\e91c';
+  margin-left: -1em;
+  color: rgb(191, 221, 220);
+}
+
+.icon-delete:before {
+  content: '\e91d';
+  color: #376d72;
+}
+
+.icon-delete.disabled:before {
+  color: #7c7c7c;
+}
+
+.icon-arrow-down:before {
+  content: '\e91e';
+  color: #376d72;
+}
+
+.icon-arrow-down.disabled:before {
+  color: #7c7c7c;
+}
+
+.icon-arrow-left:before {
+  content: '\e91f';
+  color: #376d72;
+}
+
+.icon-arrow-left.disabled:before {
+  color: #828282;
+}
+
+.icon-arrow-right:before {
+  content: '\e920';
+  color: #376d72;
+}
+
+.icon-arrow-right.disabled:before {
+  color: #828282;
+}
+
+.icon-arrow-up:before {
+  content: '\e921';
+  color: #376d72;
+}
+
+.icon-arrow-up.disabled:before {
+  color: #7c7c7c;
+}

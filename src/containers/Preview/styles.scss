@@ -1,0 +1,125 @@
+body {
+  overflow: hidden;
+}
+
+.preview-page {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+
+  .sidebar {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+
+    .bottom-navigation-button {
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      padding: 0px 40px;
+    }
+
+    .inline-input {
+      color: rgb(124, 124, 124);
+      width: 80%;
+    }
+
+    .sidebar-item-level-1 {
+      padding: 15px 12px 15px 22px;
+      cursor: pointer;
+    }
+
+    .sidebar-item-level-2 {
+      padding: 15px 12px 15px 43px;
+      cursor: pointer;
+    }
+
+    .sidebar-item-level-3 {
+      padding: 15px 12px 15px 64px;
+      cursor: pointer;
+    }
+
+    .sidebar-item-level-4 {
+      padding: 15px 12px 15px 85px;
+      cursor: pointer;
+    }
+
+    .sidebar-item-level-5,
+    .sidebar-item-level-6,
+    .sidebar-item-level-7,
+    .sidebar-item-level-8 {
+      padding: 15px 12px 15px 106px;
+      cursor: pointer;
+    }
+  }
+
+  .autofill-button[disabled] {
+    cursor: default;
+    color: #afafaf;
+  }
+
+  .autofill-function-button {
+    cursor: pointer;
+  }
+  
+  iframe {
+    display: block;
+    width:100%;
+    height: 100%;
+    position: relative;
+  }
+
+  .scroll-thumb {
+    cursor: default;
+    position: absolute;
+    left: 0;
+    height: 20px;
+    width: 7px;
+    border-radius: 7px;
+    background-color: rgb(94, 144, 144);
+    top: 0;
+  }
+
+  // .flex0 {
+  //   flex: 1 1 0%;
+  // }
+
+  // .document-table {
+  //   flex: 1 1 0%;
+  //   display: flex;
+  //   flex-direction: column;
+  //   overflow-y: auto;
+
+  //   i {
+  //     cursor: pointer;
+  //   }
+  // }
+
+  // .search-document-bar{
+  //   display: flex;
+  //   align-items: flex-end;
+  //   justify-content: flex-start;
+  //   height: 80px;
+
+  //   div {
+  //     display: flex;
+  //     align-items: center;
+  //     justify-content: flex-start;
+  //     padding-left: 40px;
+  //     height: 100%;
+  //     width: 66%;
+  //     background-color: rgb(247, 247, 247);
+
+  //     input {
+  //       color: rgb(124, 124, 124); width: 80%;
+  //     }
+  //   }
+  //   button {
+  //     width: 33%; height: 100%; cursor: default;
+  //   }
+  // }
+
+
+}

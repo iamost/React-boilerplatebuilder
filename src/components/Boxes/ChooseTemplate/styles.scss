@@ -1,0 +1,38 @@
+.boxWrp{
+  background-color: #fff;
+  text-align: center;
+  padding: 45px;
+  box-sizing: border-box;
+  border-radius: 3px;
+  max-width: 330px;
+  width: 100%;
+  margin-right: 45px;
+  .box-img{
+    height: 90px;
+    margin-bottom: 45px;
+  }
+  .choose-template{
+    height: 35px;
+    line-height: 35px;
+    font-size: 1.0625rem;
+    background-color: #c9a91f;
+    font-weight: 700;
+    margin-bottom: 30px;
+    a{
+      display: block;
+      text-decoration: none;
+      color: #fff;
+    }
+  }
+  .coming-soon{
+    float: left;
+    color: rgb(55, 109, 114);
+    font-size: 11px;
+  }
+  .help{
+    float: right;
+    font-size: 12px;
+    color: #afafaf;
+    text-align: right;
+  }
+}
