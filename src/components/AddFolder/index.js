@@ -6,6 +6,7 @@ class AddFolder extends Component {
     this.props.onClose();
   };
 
+  
   render() {
     return (
       <Wrapper className="wizard-container">
